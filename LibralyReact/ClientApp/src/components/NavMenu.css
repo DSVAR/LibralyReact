@@ -18,25 +18,35 @@ html {
 }
 
 .side a{
-  display: block;
-  float: start;
-  color:red;
+  display: block;  
+  color:white;
   padding: 8px 16px;
-  text-decoration: none;
 }
 
 .sidebar-brand{
-  
+  position:  fixed;
+  overflow:  auto;
   text-align: center;
-  list-style: none;
+  list-style-type: none;
   margin:0;
   padding: 0;
   width:10%;
   background-color: rebeccapurple;
   float: right;
+  border: #0366d6 dashed;
+}
+.test{
+  display: block;
+  overflow: auto;
   
 }
-
+.child-props{
+  display: block;
+  overflow: auto;
+  position: relative;
+  left:3%;
+  right: 4%;
+}
 .side a:hover{
   background-color: #E01A76;
   color: white;
