@@ -17,6 +17,19 @@ html {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
+@media (max-width: 1366px) and (min-width: 990px) {
+  .child-props{
+    left:4%;
+    right: 4%;
+  }
+}
+@media screen and (max-width: 990px) and (min-width: 765px){
+  .child-props{
+    left:10%;
+    right: 10%;
+  }
+}
+
 .side a{
   display: block;  
   color:white;
@@ -30,22 +43,22 @@ html {
   list-style-type: none;
   margin:0;
   padding: 0;
-  width:10%;
+  width:auto;
   background-color: rebeccapurple;
   float: right;
   border: #0366d6 dashed;
-}
-.test{
-  display: block;
-  overflow: auto;
-  
 }
 .child-props{
   display: block;
   overflow: auto;
   position: relative;
-  left:3%;
-  right: 4%;
+ 
+}
+
+.test{
+  display: block;
+  overflow: auto;
+  
 }
 .side a:hover{
   background-color: #E01A76;

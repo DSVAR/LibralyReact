@@ -3,6 +3,7 @@ import { Container } from 'reactstrap';
 import { NavMenu } from './NavMenu';
 import {RightBar} from "./RightBar";
 
+
 export class Layout extends Component {
     static displayName = Layout.name;
 
@@ -11,6 +12,7 @@ export class Layout extends Component {
             <div>
                 <NavMenu />
                 <RightBar/>
+
                     <Container >
                         <div className="child-props">
                         {this.props.children}
